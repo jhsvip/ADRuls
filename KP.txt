@@ -1,0 +1,2 @@
+https://github.com/houzi-/CDN/raw/master/kp.dat
+https://github.com/houzi-/CDN/raw/master/koolproxy.txt
