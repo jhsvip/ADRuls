@@ -1,4 +1,6 @@
-说明：增加了Adblock的easylistchina最新规则
+说明：此规则修改方法适用于K3官改固件，规则文件适用于所有KoolProyx
+
+增加了Adblock的easylistchina最新规则
 K3源官改修改方法：
 将root/adb_mon.sh和
 root/adbcmd.sh中能找到的以下网址替换成新的
