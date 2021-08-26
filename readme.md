@@ -29,3 +29,5 @@ https://github.com/jhsvip/KoolProxy_Ruls/raw/main/daily.txt
 
 更新主程序至3.8.5方法
 下载并拷贝Koolproxy文件至 /Root/Kool/
+
+第三方https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/ad_S.txt
