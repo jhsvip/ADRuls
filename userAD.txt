@@ -1,4 +1,3 @@
-||www.bolez.cn
 ||gamesz.yy.com
 ||yygame.yy.com
 ||clientad.yy.com
@@ -8,3 +7,4 @@
 ||zzhyyj.com^$important
 ||bqaztxwhhb-8490.com^$important
 ||cdlyqhw.com^$important
+||bolez.cn^$important
