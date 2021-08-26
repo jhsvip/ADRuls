@@ -31,3 +31,4 @@ https://github.com/jhsvip/KoolProxy_Ruls/raw/main/daily.txt
 下载并拷贝Koolproxy文件至 /Root/Kool/
 
 第三方https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/ad_S.txt
+https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/userAD.txt
