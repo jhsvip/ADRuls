@@ -1,4 +1,4 @@
-说明：此规则修改方法适用于K3官改固件，规则文件适用于所有KoolProyx
+说明：
 
 增加了Adblock的easylistchina最新规则
 
@@ -30,5 +30,6 @@ https://github.com/jhsvip/KoolProxy_Ruls/raw/main/daily.txt
 更新主程序至3.8.5方法
 下载并拷贝Koolproxy文件至 /Root/Kool/
 
+AdGuardHome 规则：
 第三方https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/ad_S.txt
 https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/userAD.txt
