@@ -8,7 +8,7 @@
 ||bqaztxwhhb-8490.com^
 ||cdlyqhw.com^
 ||bolez.cn^
-||*mmyy0011.html^
 ||dyjrzxyy.com^
 ||ctyspqakqq-8490.com^
-||205.209.138.102:8080
+||205.209.138.102:8080/*
+/mmyy0011.html/
