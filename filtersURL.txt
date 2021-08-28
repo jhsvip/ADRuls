@@ -1,0 +1,70 @@
+filters:
+- enabled: true
+  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/userAD.txt
+  name: userad
+  id: 1
+- enabled: true
+  url: https://ghproxy.com/https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers.txt
+  name: adv
+  id: 2
+- enabled: true
+  url: https://ghproxy.com/https://raw.githubusercontent.com/easylist/easylist/master/easylist/easylist_adservers_popup.txt
+  name: popup
+  id: 3
+- enabled: true
+  url: https://cdn.jsdelivr.net/gh/Silentely/AdBlock-Acceleration/Anti_AD_Easylist.txt
+  name: 'CHN: anti-AD'
+  id: 4
+- enabled: true
+  url: https://paulgb.github.io/BarbBlock/blacklists/hosts-file.txt
+  name: BarbBlock
+  id: 5
+- enabled: true
+  url: https://cdn.jsdelivr.net/gh/Silentely/AdBlock-Acceleration/AdGuard_Simplified_Domain_Names_Filter.txt
+  name: AdGuard DNS filter
+  id: 6
+- enabled: true
+  url: https://adaway.org/hosts.txt
+  name: AdAway Default Blocklist
+  id: 7
+- enabled: true
+  url: https://ghproxy.com/https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+  name: WindowsSpyBlocker - Hosts spy rules
+  id: 8
+- enabled: true
+  url: https://ghproxy.com/https://raw.githubusercontent.com/easylist/easylistchina/master/easylistchina.txt
+  name: easylistchina
+  id: 9
+- enabled: true
+  url: https://cdn.jsdelivr.net/gh/Silentely/AdBlock-Acceleration/Xinggsf_rule.txt
+  name: chengfeng
+  id: 10
+- enabled: true
+  url: https://cdn.jsdelivr.net/gh/Silentely/AdBlock-Acceleration/CJX's_EasyList_Lite.txt
+  name: cjx
+  id: 11
+- enabled: true
+  url: https://cdn.jsdelivr.net/gh/Silentely/AdBlock-Acceleration/fanboy-annoyance.txt
+  name: fanboy-annoyance
+  id: 12
+- enabled: true
+  url: https://cdn.jsdelivr.net/gh/Silentely/AdBlock-Acceleration/ADgk.txt
+  name: adgk
+  id: 13
+- enabled: true
+  url: https://cdn.jsdelivr.net/gh/Silentely/AdBlock-Acceleration/CJX's_Annoyance_List.txt
+  name: CJX's_Annoyance
+  id: 14
+- enabled: true
+  url: https://gitee.com/xinggsf/Adblock-Rule/raw/master/mv.txt
+  name: video
+  id: 15
+- enabled: true
+  url: https://gitee.com/halflife/list/raw/master/ad.txt
+  name: halflife
+  id: 16
+whitelist_filters:
+- enabled: true
+  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/white.txt
+  name: white
+  id: 17
