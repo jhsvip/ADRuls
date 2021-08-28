@@ -11321,51 +11321,101 @@ _zag_cookie.
 /gps/event$domain=askubuntu.com|mathoverflow.net|serverfault.com|stackexchange.com|stackoverflow.com|superuser.com
 $subdocument,third-party,domain=estream.to
 $websocket,domain=123moviesgo.nl|123movieshub.asia|123movieshub.cx|123telugu.com|7tors.com|ajplugins.com|akvideo.stream|alltube.pl|alltube.tv|animeteatr.ru|annuaire-bleu.net|bigspeeds.com|biter.tv|bitvid.sx|bmovie123.me|bmoviego.me|bmovies123.me|btstors.com|bypassed.ws|byter.tv|catrumahminimalis.me|centrum-dramy.pl|cinemafacil.com|clipwatching.com|cmovieshd.nl|coinfaucet.eu|coinhub.win|coinminingonline.com|crictime.com|crictime.is|dekoder.ws|deltabit.co|descargas2020.com|djs.sk|dragonballzpolo.blogspot.com|drama-cool.me|estream.to|estream.xyz|extratorrent.cd|fbmovies.org|fileone.tv|filmstreamvk.site|flashx.cc|flashx.co|flashx.sx|flashx.to|flashx.tv|flashx.ws|fmoviesgo.me|gomovie123.me|gomovies123.me|hdvid.tv|hdyayinmac1.com|hentai-online.pl|hqq.tv|hqq.watch|ianimes.co|idope.tv|ifrp.xyz|jkanime.net|kinohabr.net|kinokongo.cc|kinokrad.co|kinoprofi.org|kinosha.cc|kinostuff.com|lafmacun.net|leitor.net|leon08.tk|leon12.tk|leon16.tk|lewd.ninja|logovo.net|love-drama.pl|mladipodnikatelia.sk|monero-miner.com|movie4k.is|mp3free.pw|myeffect.net|netiap.com|netu.tv|nowvideo.sx|onlinevideoconverter.com|onvid.club|onvid.fun|onvid.online|onvid.pw|onvid.xyz|pebx.pl|potomy.ru|povw1deo.com|powvideo.cc|powvideo.net|protect-iframe.com|proxyportal.eu|reactor.cc|replaytvstreaming.com|seventorrents.cc|sherlockonline.ru|shortbitsfree.net|shrink-service.it|skyback.ru|skytorrents.co|skytorrents.me|sleeptimer.org|sorteosrd.com|stream247.me|streambeam.io|streamplay.me|streamplay.to|szukajka.tv|tainies.online|theappguruz.com|thepiratebay.org|tomadivx.tv|unblockall.org|unblocked.gdn|vidoza.net|vidtodo.com|vidtodo.me|vidtodo.pro|vidup.io|vidup.tv|vidzi.tv|void.cat|wallpoper.com|watchfreemovies.tv|wearesaudis.net|wwtors.com|xmovies8.nl|ya3ale.com|yazilir.com|zenexplayer.com|zona.plus
-$xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|flashx.cc|freecontent.stream|leon08.tk|leon12.tk|leon16.tk|myeffect.net|nowvideo.sx|onlinevideoconverter.com|povw1deo.com|powvideo.cc|powvideo.net|sleeptimer.org|sorteosrd.com|streambeam.io|szukajka.tv|tainies.online 
-||puui.qpic.cn/vcolumn_pic/0/logo_qing_xi_color_336_108.png/0$app=com.tencent.qqlive
-||stat.lizhi.fm^p=com.tencent.qqlive
-||121.15.220.*$app=com.tencent.qqlive
-||121.9.201.*$app=com.tencent.qqlive
-||113.105.141.2*$app=com.tencent.qqlive
-||119.147.228.*$app=com.tencent.qqlive
-||114.80.26.144^$app=com.tencent.qqlive
-!这是中文规则的补充,复制内容到自定义(点击ABP图标>齿轮>高级>我的过滤列表下文本框)
-||valipl.cp31.ott.cibntv.net^$media,rewrite=abp-resource:blank-mp3,domain=youku.com
-||cibntv.net/youku/$media,rewrite=abp-resource:blank-mp3,domain=youku.com
-||alicdn.com^*yksdk/*sdk.js$script,domain=youku.com
-sohu.com#$#json-prune Ad
-qq.com#$#json-prune ad vinfo
-iqiyi.com#$#override-property-read Object.prototype.parseXML noopFunc
-1010jiajiao.com#$#abort-on-property-read jQuery.cssHooks.height
-15yc.cc#$#abort-on-property-write encode_version
-233tw.com#$#abort-current-inline-script onload
-2nyan.org#$#abort-on-property-read _0xcc85f5
-4399.com#$#abort-on-property-read defaultbackgroundimg
-5278.cc,hboav.com#$#abort-on-property-read onload;abort-on-property-read onmessage;abort-on-property-read adbk;abort-on-property-read warm_msg
-||5278.cc/js/c.js
-@@||hboav.com/guga/images/20201021.jpg
-bingfeng.tw#$#abort-current-inline-script setTimeout
-bukaivip.com,zhenbuka2.com#$#abort-on-property-read ad_load_success
-cocomanhua.com#$#abort-on-property-read jQuery.fn.html; abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
-ddrk.me#$#abort-on-property-read Object.prototype.ads.isInAdMode
-dieka123.com,hanjutvn.com,hukanyy.com,taijuwang.com#$#abort-on-property-read history.pushState
-dlkoo.com#$#abort-current-inline-script setTimeout testad
-fpbsnc.com,lsntzzy3.com#$#override-property-read ps noopFunc
-hktvyb.com#$#abort-current-inline-script setInterval
-htqyy.com#$#abort-on-property-read isBlk;abort-on-property-read adFlag
-league-funny.com#$#abort-on-property-read onload
-mp4er.com#$#abort-on-property-read onload
-nfmovies.com#$#abort-current-inline-script $myui probe
-pcbeta.com#$#abort-on-property-read setTimeout
-rjno1.com#$#abort-current-inline-script setTimeout;abort-current-inline-script onload
-rjno1.com#?#div:-abp-has(> p:-abp-contains(ad block))
-@@||rjno1.com^$csp
-rmdown.com#$#abort-on-property-read rmJson;abort-on-property-read poJson
-ruanyifeng.com#$#abort-on-property-read setTimeout;override-property-read checker ''
-tianya.cn#$#abort-current-inline-script src apk
-tingfm.com#$#abort-on-property-read localStorage.removeItem
-xianzhenyuan.cn#$#abort-on-property-read ad
-zhenbuka3.com#$#override-property-read ad_load_success trueFunc
-!#Novels
-dhzw8.com,hkslg8.com,konlan.org,lewxs.com,snwx3.com,sqsxs.com,xtmetb.com#$#abort-on-property-read _go
-ciymao.com,zhaishuyuan.com#$#abort-on-property-read alert
+$xmlhttprequest,domain=auroravid.to|catrumahminimalis.me|dekoder.ws|estream.to|flashx.cc|freecontent.stream|leon08.tk|leon12.tk|leon16.tk|myeffect.net|nowvideo.sx|onlinevideoconverter.com|povw1deo.com|powvideo.cc|powvideo.net|sleeptimer.org|sorteosrd.com|streambeam.io|szukajka.tv|tainies.online
+v.youku.com##.control-phonewatch,#right-title-ad-banner
+youku.com##+js(aeld,dblclick,ykplayer.switchFullscreen)
+!v.youku.com##+js(nano-stb)
+||atm.youku.com/
+||cibntv.net/youku/$media
+||valipl.cp31.ott.cibntv.net/$media
+|https://js.ykimg.com/youku/dist/js/lib/ikuAdapterNew.js
+||sealine.youku.com/yk/*callback=adpagesdk$script
+iqiyi.com##div[data-adzone],#block-V
+!iqiyi.com##+js(nano-sib)
+iqiyi.com##+js(set, Object.prototype.parseXML, noopFunc)
+!||t7z.cupid.iqiyi.com/show$script,important
+||static.iqiyi.com/js/common/mars_v.js$script
+||iqiyi.com/videos/other/20$xmlhttprequest,object-subrequest
+||iqiyipic.com/image/20*_100000$image
+||ssports.iqiyi.com/json/shop/shopInfo
+show.ssports.com
+||ssports.iqiyi.com/app/$object-subrequest
+qq.com##.mod_ad, .txp_ad
+v.qq.com,sports.qq.com##+js(json-prune,ad,vinfo)
+v.qq.com,sports.qq.com##+js(nano-sib, \u5012\u8ba1\u65f6)
+@@||video.qq.com/fcgi-bin/
+||mark.l.qq.com/fcgi-bin/get_video_mark_all?idlist=
+||gtimg.com/qqlive/
+miaozhen.com
+reachmax.cn
+scorecardresearch.com
+tencentmind.com
+xtgreat.com
+bilibili.com##.gg-floor-module,#slide_ad,#slide_ad+a[data-target-url]
+||api.bilibili.com/x/web-show/res/loc?pf=$~script
+||hdslb.com/bfs/sycp/creative_img/$image
+acfun.cn##.pause-display-container,#ad-comment,#ad-player-view
+||aixifan.com/static/*/appGuide/
+cctv.com###bgAd_div
+cctv.com,ddrk.me##+js(aeld,dblclick,isImmediatePropagationStopped)
+||imall.cctv.com/$subdocument
+||bjcathay.com/
+!||player.cntv.cn/h5vod/$script
+pptv.com##div[id^=afp_],div[id$=-afp],#video-download-game
+||synacast.com
+||g.pptv.com/game/$subdocument
+@@||tb.mgtv.com/sdk/*/ad-sdk.js$script
+||video.da.mgtv.com/$media
+ys.da.mgtv.com
+||da.mgtv.com/mediafiles/wiad_creative/$image
+@@||js.tv.itc.cn/gg.seed.js
+||css.tv.itc.cn/m/img/player/dlBanner.$image
+||data.vod.itc.cn/*&prod=ad&$media
+||api.my.tv.sohu.com/wm/getads.do?
+||aty.sohu.com/
+||go.sohu.com/
+||tv.sohu.com/upload/csad/admaster/$image
+tv.sohu.com##.x-dl-shake.x-download-panel, #playerBar > div.area ~a
+1905.com##.ad-couplet,#hd-tab-label4,div.bd-tab.video-list:last-child
+||aliyun.com^$domain=1905.com
+||aliyuncs.com^$domain=1905.com
+@@||ark.letv.com/adx?adzone=
+@@||stat.letv.com/$script
+*/letv-gug/$media,object-subrequest
+||letvimg.com/$object,object-subrequest
+||letvimg.com/*_gugwl/$image
+||js.letvcdn.com/*_banner_$script
+||banana.le.com/
+adxvip.com
+behe.com
+biddingx.com
+cr-nielsen.com
+fancyapi.com
+kejet.net
+||jd.com/$domain=le.com
+ulmdb.cn
+yoyi.com.cn
+zhiziyun.com
+le.com##.banner_ad,div.banner_left,div.banner_right,.min_pause_img
+douyu.com##div[class$="-ad"],div[class|=ad],div.no-login
+||douyucdn.cn/adxdsp/$image
+||wan.douyu.com/
+douyu.com,huya.com##a[href^="https://g.wan."]
+huya.com###hy-ad,#hy-ab,#huya-ab
+||g.huya.com/
+||pub.funshion.com
+*/preroll/$media,domain=91porn.com
+dililitv.cc,lzvod.net##+js(aeld,dblclick,dp.fullScreen.request)
+||www.dililitv.cc/*.php?ad=$script
+js.dilidd.com
+dililitv.cc,hmtv.me,imeiju.io##+js(acis,Object.defineProperty,location.href)
+dyjihe.com##.tempWrap
+haitur.com,haicaoys.com##.dplayer-web-fullscreen-fix .float-box
+haitur.com##.container:style(max-width:90%!important;width:90%!important)
+haitur.com##.left-content:style(width:77%!important)
+imomoe.*,xiamov.com,xxdm8.com##+js(ra, target, base[target])
+dyjihe.com,haicaoys.com,haitur.com,imomoe.*,kakadm.com,milimili.tv,qiqidongman.com,vodxc.in##+js(ra, target, a[href^="/"])
+||alicdn.com/$image,domain=api.xiaomingming.org
+||tracker.$xhr,websocket,script,ping
+||www.yatu.tv:88/image/*.gif^$image
+||www.yatu.tv:88/m/images/$image 
