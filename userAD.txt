@@ -813,7 +813,6 @@ bukaivip.com##div:nth-child(19) > div:first-child
 bukaivip.com##div:nth-child(19) > div:first-child > div
 bukaivip.com##div.xmhfgtni.xmhfgtni_animation_2
 bukaivip.com##div:nth-child(19) > div:last-child > iframe:last-child
-||sdk.*^
 !APP：中国移动 ver：6.7.6
 ||app.10086.cn/*.gif
 !（过滤应用内gif动画）
