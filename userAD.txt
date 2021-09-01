@@ -1,18 +1,38 @@
-||gamesz.yy.com^
-||*games.yy.com^
+################YY规则
+||game*.yy.com^
 ||*game.yy.com^
 ||game*.yy.com^
 ||yygame.yy.com^
 ||clientad.yy.com^
+||*dragon.yy.com^
+||appstore.yy.com^
+||minicard.yy.com^
+||tab2.yyembed.yy.com^
+||zhuiwan.yy.com^
 ||popup.bs2cdn.yy.com^
 ||control.mini.pay.yy.com^
 ||dl.vip.yy.com^
+||news.game.yy.com^
+||yeconfig.game.yy.com^
+||makefriends.bs2dl.yy.com^
+||makefriends.bs2.yy.com^
+################乱七八糟自定义
+||*/mmyy0011.html^
+||/include/javascript/msn.js^
+||205.209.138.102:8080*
 ||zzhyyj.com^
 ||bqaztxwhhb-8490.com^
 ||cdlyqhw.com^
 ||bolez.cn^
 ||dyjrzxyy.com^
 ||ctyspqakqq-8490.com^
+||fuwu.sougou.com^
+||collector.dcdn.baidu.com^
+||query.dcdn.baidu.com^
+||pcdn-bandwidth.baidu.com^
+################HOST自定义
+87.250.250.50 yadi.sk
+213.180.193.1 disk.yandex.com
 #pkg=white.ad.web.com;浏览器播放视频〔提示误伤〕不√下两条
 127.0.0.1 t7z.cupid.iqiyi.com
 127.0.0.1 livew.l.qq.com
@@ -704,10 +724,10 @@ m.bilibili.com###commentMore > div.open-app-btn.m-comment-openapp > button
 m.bilibili.com###bilibiliPlayer > div.player-mobile > div.player-mobile-area > div.player-mobile-box.player-mobile-box-callAppMode:last-child > div.player-mobile-display.player-mobile-control-bar-hide:last-child > div.player-mobile-control-bar:nth-child(2) > div.player-mobile-control-bar-right:last-child > div.player-mobile-control-btn.player-mobile-control-btn-callapp.player-mobile-control-btn-speed:nth-child(2)
 m.bilibili.com###bilibiliPlayer > div.player-mobile > div.player-mobile-area > div.player-mobile-box.player-mobile-box-callAppMode:last-child > div.player-mobile-display:last-child > div.player-mobile-ending-panel:last-child > div.player-mobile-ending-panel-container:last-child > div.player-mobile-ending-panel-recommend:first-child > div.player-mobile-ending-panel-video-wrap:last-child > div.player-mobile-ending-panel-video > div.player-mobile-ending-panel-content:last-child > div.player-mobile-ending-panel-button:last-child
 #樱花动漫
-||ps.ssl.qhmsg.com^$important
+||ps.ssl.qhmsg.com^
 m.imomoe.la###mobile-index > a:nth-child(5)
-||app.51gogogou.com^$important,third-party
-||app.51gogogou.com^$important,match-case
+||app.51gogogou.com^,third-party
+||app.51gogogou.com^,match-case
 ||hualigs.cn^$domain=m.imomoe.la,important
 m.imomoe.la###mobile-index > a:nth-child
 ||cdn.u1.huluxia.com/g4/M03/*$domain=m.imomoe.la
@@ -763,7 +783,7 @@ zhihu.com#$?#.ContentItem > div.ModalWrap:has(> div > div.ModalExp-content > div
 $removeparam=utm_source
 ! bkvip
 bukaivip.com###pyfm
-||ximg.meihu56.cn^$important
+||ximg.meihu56.cn^
 ||*.fghpro.xyz^
 bukaivip.com##style:nth-child(18)
 bukaivip.com##script:nth-child(17)
@@ -975,30 +995,30 @@ xda-developers.com###purch-parent-ad-container-id
 ! 去up推荐广告
 ||app.bilibili.com/x/v2/view$replace=/{"request_id".*?"ad_info".*?}}}/{ }/
 !一些奇怪的大量请求
-||5hz.org^$important
-||pizzaseo.com^$important
+||5hz.org^
+||pizzaseo.com^
 !各种奇葩色情广告
 ||21511.ua96.com
 ||inews.gtimg.com
 ||cbu01.alicdn.com/img/ibank/*
-||tyc20202.com^$important
+||tyc20202.com^
 ||tu2.jinpaigz.com
-||o.fwmdafm.cn^$important
-||www.b0fe2304c355.com^$important
+||o.fwmdafm.cn^
+||www.b0fe2304c355.com^
 ||sdk.nouzhu.cn
 ||l.infwd.xyz
-||mo.umlzk.xyz^$important
-||eo.umlzk.xyz^$important
-||f.gxrwc.xyz^$important
-||d.rzskdw.cn^$important
-||l.pnsblw.cn^$important
-||diyibanzhu^$important
+||mo.umlzk.xyz^
+||eo.umlzk.xyz^
+||f.gxrwc.xyz^
+||d.rzskdw.cn^
+||l.pnsblw.cn^
+||diyibanzhu^
 ||l.pnsblw.cn
-||ll.axyim.cn^$important
-||kr.axyqd.cn^$important
-||open.lalanuz.cn^$important
-||dybz^$important
-||m.nnhtf.cn^$important
+||ll.axyim.cn^
+||kr.axyqd.cn^
+||open.lalanuz.cn^
+||dybz^
+||m.nnhtf.cn^
 ! 知乎app google play版本
 ! adguard默认规则会拦搜索，取消拦截
 @@||www.zhihu.com/api/v4^$app=com.zhihu.android
@@ -4259,7 +4279,7 @@ jsyks.com##.app, .s
 guangfasx.51jiaxiao.com##.kwj-pop-box
 pvp.qq.com##.topImg
 pvp.qq.com##div.r_nav:nth-child(9) > ul.r_con:last-child > li.r_code:first-child
-@@||www.hasee.com^$important,document,~extension
+@@||www.hasee.com^,document,~extension
 gzegn.gov.cn###ly > a:last-child > img
 gzegn.gov.cn###cloud_close
 gitee.com##div.g-wxad__wrapper:last-child > img.g-wxad__image:first-child
@@ -4270,7 +4290,7 @@ hao123.com##.g_icon
 m.v.baidu.com##.share-nav, .btnDownloadApp, .goAppIndex
 cf.qq.com##.ract-ifr
 tech.sina.com.cn##.tab_related_app_imglink
-@@||www.bidianer.com^$important,document,~extension
+@@||www.bidianer.com^,document,~extension
 iqiyi.com###flashbox > iqpdiv.iqp-player.iqp-player-pc:last-child > iqpdiv:nth-child(3) > div:last-child > img:first-child
 iqiyi.com###flashbox > iqpdiv.iqp-player.iqp-player-pc:last-child > iqpdiv:nth-child(3) > div:last-child
 game.qq.com###QRbox

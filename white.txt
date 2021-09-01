@@ -6,4 +6,4 @@
 @@||www.rep2p.com^
 @@||api.device.xiaomi.net^
 @@||cn.app.chat.xiaomi.net^
-
+@@||github.com.cnpmjs.org^$important
