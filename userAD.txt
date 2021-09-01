@@ -1,4 +1,7 @@
 ||gamesz.yy.com^
+||*games.yy.com^
+||*game.yy.com^
+||game*.yy.com^
 ||yygame.yy.com^
 ||clientad.yy.com^
 ||popup.bs2cdn.yy.com^
@@ -11418,3 +11421,4 @@ dyjihe.com,haicaoys.com,haitur.com,imomoe.*,kakadm.com,milimili.tv,qiqidongman.c
 ||tracker.$xhr,websocket,script,ping
 ||www.yatu.tv:88/image/*.gif^$image
 ||www.yatu.tv:88/m/images/$image 
+||liulian2.oss-cn-shenzhen.aliyuncs.com^
