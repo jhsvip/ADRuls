@@ -17,10 +17,10 @@ dns:
   statistics_interval: 1
   querylog_enabled: true
   querylog_file_enabled: true
-  querylog_interval: 2160h
+  querylog_interval: 6h
   querylog_size_memory: 1000
   anonymize_client_ip: false
-  protection_enabled: false
+  protection_enabled: true
   blocking_mode: nxdomain
   blocking_ipv4: ""
   blocking_ipv6: ""
@@ -40,6 +40,7 @@ dns:
   - 114.114.114.114
   all_servers: true
   fastest_addr: false
+  fastest_timeout: 1s
   allowed_clients: []
   disallowed_clients: []
   blocked_hosts:
