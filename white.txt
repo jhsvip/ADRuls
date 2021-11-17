@@ -7,3 +7,4 @@
 @@||api.device.xiaomi.net^
 @@||cn.app.chat.xiaomi.net^
 @@||github.com.cnpmjs.org^$important
+@@||mtop.ele.me^$important
