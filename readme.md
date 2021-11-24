@@ -40,3 +40,11 @@ https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/userAD.tx
 https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/white.txt
 
 欢迎大家补充规则
+
+
+更新ADG版本方法：
+
+
+下载官方对应的版本https://github.com/AdguardTeam/AdGuardHome/releases
+
+我的是MTK7621/MTK7620处理器 选择 AdGuardHome_linux_mipsle_softfloat.tar.gz 这个版本下载 解压缩后使用winscp把路由器的AdGuardHome文件替换即可
