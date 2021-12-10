@@ -31,3 +31,4 @@
 @@||tdid.m.qq.com^$important'
 @@||click.mz.simba.taobao.com^$important'
 @@||adash.man.aliyuncs.com^$important'
+@@||pcr1.pc6.com^$important
