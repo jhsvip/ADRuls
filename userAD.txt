@@ -11443,3 +11443,15 @@ dyjihe.com,haicaoys.com,haitur.com,imomoe.*,kakadm.com,milimili.tv,qiqidongman.c
 ||www.yatu.tv:88/m/images/$image 
 ||liulian2.oss-cn-shenzhen.aliyuncs.com^
 ||495k.xyz^$important
+||bqg99.org^$important
+||ofurl.org^$important
+||grz00*.co^$important
+||sq1k.cc^$important
+||thwagga.com^$important
+||5zcake.com^$important
+||tqtd8.com^$important
+||648xx.xyz^$important
+||bolez.cn^$important
+||jsgongbing.com^$important
+||eclzz.asia^$important
+||ygdy8.cc^$important
