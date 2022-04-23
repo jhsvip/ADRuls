@@ -1,0 +1,57 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+#configuration for Mega.nz
+
+1.216.147.135 eu.api.mega.co.nz
+
+66.203.124.37 eu.static.mega.co.nz
+
+117.18.237.188 g.cdn1.mega.co.nz
+
+66.203.125.22  mega.co.nz
+
+31.216.148.1 mega.nz
+
+89.44.169.135 mega.nz
+
+31.216.147.130 w.api.mega.co.nz
+
+#Github
+199.232.68.133 raw.githubusercontent.com
+199.232.68.133 pkg-containers.githubusercontent.com
+199.232.68.133 cloud.githubusercontent.com
+199.232.68.133 gist.githubusercontent.com
+199.232.68.133 marketplace-screenshots.githubusercontent.com
+199.232.68.133 repository-images.githubusercontent.com
+199.232.68.133 user-images.githubusercontent.com
+199.232.68.133 desktop.githubusercontent.com
+199.232.68.133 avatars.githubusercontent.com
+199.232.68.133 avatars0.githubusercontent.com
+199.232.68.133 avatars1.githubusercontent.com
+199.232.68.133 avatars2.githubusercontent.com
+199.232.68.133 avatars3.githubusercontent.com
+199.232.68.133 avatars4.githubusercontent.com
+199.232.68.133 avatars5.githubusercontent.com
+199.232.68.133 avatars6.githubusercontent.com
+199.232.68.133 avatars7.githubusercontent.com
+199.232.68.133 avatars8.githubusercontent.com
