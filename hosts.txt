@@ -9,6 +9,7 @@
 89.44.169.135 mega.nz
 31.216.147.130 w.api.mega.co.nz
 #Github
+140.82.114.4 github.com
 199.232.68.133 raw.githubusercontent.com
 199.232.68.133 pkg-containers.githubusercontent.com
 199.232.68.133 cloud.githubusercontent.com
