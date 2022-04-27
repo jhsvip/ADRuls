@@ -105,7 +105,12 @@ whitelist_filters:
   url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/white.txt
   name: 白
   id: 3
-user_rules: []
+- enabled: true
+  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/hosts.txt
+  name: hosts
+  id: 1651067894
+user_rules:
+- ""
 dhcp:
   enabled: false
   interface_name: ""
