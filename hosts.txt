@@ -1,14 +1,16 @@
-192.168.2.1 Smartplugconnect.phicomm.com
-192.168.2.1 aircat.phicomm.com
 #configuration for Mega.nz
+66.203.125.12 g.api.mega.co.nz
 1.216.147.135 eu.api.mega.co.nz
-66.203.124.37 eu.static.mega.co.nz
-117.18.237.188 g.cdn1.mega.co.nz
+89.44.169.132 eu.static.mega.co.nz
+66.203.125.22 g.cdn1.mega.co.nz
 66.203.125.22  mega.co.nz
-31.216.148.1 mega.nz
-89.44.169.135 mega.nz
-31.216.147.130 w.api.mega.co.nz
+31.216.148.10 mega.nz
+31.216.144.5 mega.nz
+31.216.145.5 mega.nz
+66.203.125.32 w.api.mega.co.nz
+
 #Github
+199.232.68.133 camo.githubusercontent.com
 140.82.114.4 github.com
 199.232.68.133 raw.githubusercontent.com
 199.232.68.133 pkg-containers.githubusercontent.com
