@@ -10,6 +10,7 @@
 66.203.125.32 w.api.mega.co.nz
 
 #Github
+140.82.113.5 api.github.com
 199.232.68.133 camo.githubusercontent.com
 140.82.114.4 github.com
 199.232.68.133 raw.githubusercontent.com
