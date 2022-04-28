@@ -32,7 +32,7 @@ dns:
   refuse_any: true
   upstream_dns:
   - 114.114.114.114
-  - 1.1.1.1
+  - 223.5.5.5
   - 219.146.1.66
   - 219.147.1.66
   upstream_dns_file: ""
@@ -59,6 +59,7 @@ dns:
   enable_dnssec: false
   edns_client_subnet: false
   max_goroutines: 300
+  handle_ddr: true
   ipset: []
   filtering_enabled: true
   filters_update_interval: 24
@@ -72,8 +73,7 @@ dns:
   rewrites: []
   blocked_services: []
   upstream_timeout: 10s
-  local_domain_name: lan
-  resolve_clients: true
+  private_networks: []
   use_private_ptr_resolvers: true
   local_ptr_upstreams: []
 tls:
@@ -93,27 +93,33 @@ tls:
   private_key_path: ""
 filters:
 - enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/ad.txt
+  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/ad.txt
   name: ad
   id: 1
 - enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/userAD.txt
+  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/userAD.txt
   name: user
   id: 2
 whitelist_filters:
 - enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/white.txt
+  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
   name: 白
   id: 3
 - enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/hosts.txt
+  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/hosts.txt
   name: hosts
   id: 1651067894
 user_rules:
-- ""
+- '@@||search.browser.miui.com^$important'
+- '||adbehavior.ximalaya.com.lan^$important'
+- '||mermaid.ximalaya.com^$important'
+- '||adse.ximalaya.com.lan^$important'
+- '||adse.wsa.ximalaya.com.lan^$important'
+- '||mres.ximalaya.com^$important'
 dhcp:
   enabled: false
   interface_name: ""
+  local_domain_name: lan
   dhcpv4:
     gateway_ip: ""
     subnet_mask: ""
@@ -127,7 +133,14 @@ dhcp:
     lease_duration: 86400
     ra_slaac_only: false
     ra_allow_slaac: false
-clients: []
+clients:
+  runtime_sources:
+    whois: true
+    arp: true
+    rdns: true
+    dhcp: true
+    hosts: true
+  persistent: []
 log_compress: false
 log_localtime: false
 log_max_backups: 0
@@ -139,4 +152,4 @@ os:
   group: ""
   user: ""
   rlimit_nofile: 0
-schema_version: 12
+schema_version: 14
