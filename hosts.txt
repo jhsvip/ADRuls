@@ -10,6 +10,8 @@
 66.203.125.32 w.api.mega.co.nz
 
 #Github
+140.82.114.4 collector.Github.com
+52.216.107.180 github-cloud.s3.amazonaws.com
 140.82.113.5 api.github.com
 199.232.68.133 camo.githubusercontent.com
 140.82.114.4 github.com
