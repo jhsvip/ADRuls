@@ -94,3 +94,5 @@
 @@||fonts.gstatic.com
 @@||sp1.baidu.com
 @@||sp0.baidu.com
+@@||inews.gtimg.com^$important
+@@||aegis.qq.com^$important
