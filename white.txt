@@ -94,5 +94,8 @@
 @@||fonts.gstatic.com
 @@||sp1.baidu.com
 @@||sp0.baidu.com
-@@||inews.gtimg.com^$important
-@@||aegis.qq.com^$important
+@@||inews.gtimg.com
+@@||aegis.qq.com
+#淘宝农场任务
+@@||audid-api.taobao.com
+@@||mo.m.tmall.com
