@@ -4,11 +4,12 @@
 
 2022/05/02 拼凑整合了一堆规则，去掉了一大堆重复的规则！
 
+![_66`V3XFCA$%TD~$S7Q4B7I](https://user-images.githubusercontent.com/63874546/166162639-49c52394-2987-4df1-a526-4618e099e2c5.png)
 
 
 注：版权归其原作者所有！如有侵权请联系我删除！转载请注明出处！
 
-
+****
 
 国内请使用ghproxy代理地址：
 
@@ -22,7 +23,7 @@
 白名单：https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
 
 
-
+******
 
 源地址：
 
@@ -38,10 +39,10 @@
 
 
 
-
+*
 
 欢迎大家补充规则！如果有误杀网站，请与我联系！
-
+*
 
 更新ADG版本方法：
 
@@ -51,3 +52,4 @@
 我的是MTK7621/MTK7620处理器 选择 AdGuardHome_linux_mipsle_softfloat.tar.gz 
 
 mipsle这个版本下载 解压缩后使用winscp把路由器的AdGuardHome文件替换即可
+*
