@@ -39,7 +39,7 @@
 
 
 
-*
+******
 
 欢迎大家补充规则！如果有误杀网站，请与我联系！
 *
@@ -52,4 +52,4 @@
 我的是MTK7621/MTK7620处理器 选择 AdGuardHome_linux_mipsle_softfloat.tar.gz 
 
 mipsle这个版本下载 解压缩后使用winscp把路由器的AdGuardHome文件替换即可
-*
+*******
