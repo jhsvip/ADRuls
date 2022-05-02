@@ -93,18 +93,23 @@ tls:
   private_key_path: ""
 filters:
 - enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/ad.txt
+  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/Combo.txt
   name: ad
   id: 1
 - enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/userAD.txt
+  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/userAD.txt
   name: user
   id: 2
 whitelist_filters:
 - enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/KoolProxy_Ruls/blob/main/white.txt
+  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/white.txt
   name: 白
   id: 3
+  whitelist_filters:
+- enabled: true
+  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
+  name: hosts
+  id: 4
 user_rules: []
 dhcp:
   enabled: false
