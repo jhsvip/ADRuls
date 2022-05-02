@@ -93,7 +93,7 @@ tls:
   private_key_path: ""
 filters:
 - enabled: true
-  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/ad.txt
+  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/Combo.txt
   name: ad
   id: 1
 - enabled: true
