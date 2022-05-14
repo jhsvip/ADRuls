@@ -64,6 +64,7 @@
 @@||fonts.gstatic.com
 @@||sp1.baidu.com
 @@||sp0.baidu.com
+@@||gsp0.baidu.com
 @@||inews.gtimg.com
 @@||aegis.qq.com
 @@||a1.qpic.cn^$important
