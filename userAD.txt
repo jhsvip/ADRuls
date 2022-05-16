@@ -1,3 +1,11 @@
+#####2022/5/16更新
+||lgr7o.xyz
+||xtydouke.com
+||233leyuan.com
+||tiankebao.net
+||pic.181lm.com
+||jj62f.net
+||20under20ivy.com
 ################YY规则
 ||game*.yy.com
 ||*game.yy.com
@@ -56,9 +64,6 @@
 ||collector.dcdn.baidu.com
 ||query.dcdn.baidu.com
 ||pcdn-bandwidth.baidu.com
-################HOST自定义
-87.250.250.50 yadi.sk
-213.180.193.1 disk.yandex.com
 #pkg=white.ad.web.com;浏览器播放视频〔提示误伤〕不√下两条
 127.0.0.1 #----广告奖励相关----#
 #pkg=ad.xiaomi.com;【小米视频&TV】. MIUI
