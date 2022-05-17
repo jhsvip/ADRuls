@@ -82,3 +82,7 @@
 @@||p.qlogo.cn^$important
 #163主页图片
 @@||cms-bucket.ws.126.net^$important
+#Microsoft
+@@||settings-win.data.microsoft.com^$important
+@@||target.microsoft.com^$important
+@@||browser.pipe.aria.microsoft.com^$important
