@@ -32,7 +32,7 @@ dns:
   refuse_any: true
   upstream_dns:
   - 114.114.114.114
-  - 223.5.5.5
+  - 1.1.1.1
   - 219.146.1.66
   - 219.147.1.66
   upstream_dns_file: ""
@@ -70,7 +70,9 @@ dns:
   safesearch_cache_size: 1048576
   parental_cache_size: 1048576
   cache_time: 30
-  rewrites: []
+  rewrites:
+  - domain: github.com
+    answer: 140.82.114.4
   blocked_services: []
   upstream_timeout: 10s
   private_networks: []
@@ -93,29 +95,32 @@ tls:
   private_key_path: ""
 filters:
 - enabled: true
-  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/Combo.txt
-  name: ad
-  id: 1
-- enabled: true
-  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/userAD.txt
+  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/userAD.txt
   name: user
   id: 2
+- enabled: true
+  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/Combo.txt
+  name: BlueSkyXN
+  id: 1651405091
+- enabled: true
+  url: https://ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
+  name: Skyrules
+  id: 1651405092
 whitelist_filters:
 - enabled: true
-  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
+  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/white.txt
   name: 白
   id: 3
 - enabled: true
-  url: https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/hosts.txt
+  url: https://ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
+  name: SkyWhite
+  id: 1651405093
+- enabled: true
+  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
   name: hosts
-  id: 1651067894
+  id: 1651405094
 user_rules:
-- '@@||search.browser.miui.com^$important'
-- '||adbehavior.ximalaya.com.lan^$important'
-- '||mermaid.ximalaya.com^$important'
-- '||adse.ximalaya.com.lan^$important'
-- '||adse.wsa.ximalaya.com.lan^$important'
-- '||mres.ximalaya.com^$important'
+- ""
 dhcp:
   enabled: false
   interface_name: ""
