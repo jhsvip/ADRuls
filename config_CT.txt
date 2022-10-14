@@ -2,8 +2,8 @@ bind_host: 0.0.0.0
 bind_port: 3000
 beta_bind_port: 0
 users:
-- name: admin
-  password: $2a$10$wtr/I4szZg9eFMiUb2dk.eziJsCUshzKHfZTXbVGCARdI.YXKxWRO
+  - name: admin
+    password: $2a$10$wtr/I4szZg9eFMiUb2dk.eziJsCUshzKHfZTXbVGCARdI.YXKxWRO
 auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
@@ -12,7 +12,7 @@ debug_pprof: false
 web_session_ttl: 720
 dns:
   bind_hosts:
-  - 0.0.0.0
+    - 0.0.0.0
   port: 5353
   statistics_interval: 1
   querylog_enabled: true
@@ -20,7 +20,7 @@ dns:
   querylog_interval: 6h
   querylog_size_memory: 1000
   anonymize_client_ip: false
-  protection_enabled: true
+  protection_enabled: false
   blocking_mode: nxdomain
   blocking_ipv4: ""
   blocking_ipv6: ""
@@ -31,25 +31,25 @@ dns:
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
-  - 114.114.114.114
-  - 1.1.1.1
-  - 219.146.1.66
-  - 219.147.1.66
+    - 114.114.114.114
+    - 1.1.1.1
+    - 219.146.1.66
+    - 219.147.1.66
   upstream_dns_file: ""
   bootstrap_dns:
-  - 114.114.114.114
+    - 114.114.114.114
   all_servers: true
   fastest_addr: false
   fastest_timeout: 1s
   allowed_clients: []
   disallowed_clients: []
   blocked_hosts:
-  - version.bind
-  - id.server
-  - hostname.bind
+    - version.bind
+    - id.server
+    - hostname.bind
   trusted_proxies:
-  - 127.0.0.0/8
-  - ::1/128
+    - 127.0.0.0/8
+    - ::1/128
   cache_size: 4194304
   cache_ttl_min: 0
   cache_ttl_max: 0
@@ -61,6 +61,7 @@ dns:
   max_goroutines: 300
   handle_ddr: true
   ipset: []
+  ipset_file: ""
   filtering_enabled: true
   filters_update_interval: 24
   parental_enabled: false
@@ -71,13 +72,17 @@ dns:
   parental_cache_size: 1048576
   cache_time: 30
   rewrites:
-  - domain: github.com
-    answer: 140.82.114.4
+    - domain: github.com
+      answer: 140.82.114.4
+    - domain: prod-rso.lol.qq.com
+      answer: 113.250.3.73
   blocked_services: []
   upstream_timeout: 10s
   private_networks: []
   use_private_ptr_resolvers: true
   local_ptr_upstreams: []
+  serve_http3: false
+  use_http3_upstreams: false
 tls:
   enabled: false
   server_name: ""
@@ -94,33 +99,33 @@ tls:
   certificate_path: ""
   private_key_path: ""
 filters:
-- enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/userAD.txt
-  name: user
-  id: 2
-- enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/Combo.txt
-  name: BlueSkyXN
-  id: 1651405091
-- enabled: true
-  url: https://ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
-  name: Skyrules
-  id: 1651405092
+  - enabled: true
+    url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/userAD.txt
+    name: user
+    id: 2
+  - enabled: true
+    url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/Combo.txt
+    name: BlueSkyXN
+    id: 1651405091
+  - enabled: true
+    url: https://ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
+    name: Skyrules
+    id: 1651405092
 whitelist_filters:
-- enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/white.txt
-  name: 白
-  id: 3
-- enabled: true
-  url: https://ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
-  name: SkyWhite
-  id: 1651405093
-- enabled: true
-  url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
-  name: hosts
-  id: 1651405094
+  - enabled: true
+    url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/white.txt
+    name: 白
+    id: 3
+  - enabled: true
+    url: https://ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
+    name: SkyWhite
+    id: 1651405093
+  - enabled: true
+    url: https://ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
+    name: hosts
+    id: 1651405094
 user_rules:
-- ""
+  - ""
 dhcp:
   enabled: false
   interface_name: ""
@@ -146,12 +151,12 @@ clients:
     dhcp: true
     hosts: true
   persistent: []
-log_compress: false
-log_localtime: false
+log_file: ""
 log_max_backups: 0
 log_max_size: 100
 log_max_age: 3
-log_file: ""
+log_compress: false
+log_localtime: false
 verbose: false
 os:
   group: ""
