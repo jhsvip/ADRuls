@@ -99,3 +99,5 @@
 @@||settings-win.data.microsoft.com^
 @@||target.microsoft.com^
 @@||browser.pipe.aria.microsoft.com^
+#腾讯视频
+@@||union.video.qq.com^
