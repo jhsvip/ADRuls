@@ -104,3 +104,5 @@
 @@||nsclick.baidu.com^$important
 @@||mini.eastday.com^$important
 @@||hm.baidu.com^$important
+@@||dlswbr.baidu.com^$important
+@@||sofire.bdstatic.com^$important
