@@ -106,3 +106,4 @@
 @@||hm.baidu.com^$important
 @@||dlswbr.baidu.com^$important
 @@||sofire.bdstatic.com^$important
+@@||als.baidu.com^$important
