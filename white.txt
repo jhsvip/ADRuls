@@ -103,3 +103,4 @@
 @@||union.video.qq.com^
 @@||nsclick.baidu.com^$important
 @@||mini.eastday.com^$important
+@@||hm.baidu.com^$important
