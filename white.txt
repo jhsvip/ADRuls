@@ -108,4 +108,4 @@
 @@||sofire.bdstatic.com^$important
 @@||als.baidu.com^$important
 #千牛
-@@||arms-retcode.aliyuncs.com^$important
+@@||amdc.m.taobao.com^$important
