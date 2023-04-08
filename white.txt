@@ -108,5 +108,4 @@
 @@||sofire.bdstatic.com^$important
 @@||als.baidu.com^$important
 #千牛
-@@||zconfig.alibabausercontent.com^$important
-@@||dorangesource.alicdn.com^$important
+@@||arms-retcode.aliyuncs.com^$important
