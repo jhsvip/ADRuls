@@ -107,3 +107,5 @@
 @@||dlswbr.baidu.com^$important
 @@||sofire.bdstatic.com^$important
 @@||als.baidu.com^$important
+#千牛
+@@||zconfig.alibabausercontent.com^$important
