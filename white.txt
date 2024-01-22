@@ -112,3 +112,6 @@
 @@||amdc.m.taobao.com^$important
 @@||zconfig.alibabausercontent.com^$important
 @@||acs.m.taobao.com^$important
+#2345
+@@||login.2345.com^$important
+@@||jifen.yl234.com^$important
