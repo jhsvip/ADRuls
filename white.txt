@@ -115,3 +115,4 @@
 #2345
 @@||login.2345.com^$important
 @@||jifen.yl234.com^$important
+@@||api.yl234.com^$important
