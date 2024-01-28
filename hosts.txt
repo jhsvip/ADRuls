@@ -9,9 +9,10 @@
 66.203.125.32 w.api.mega.co.nz
 
 #Github
-20.200.245.247 github.com #UHE_
+20.27.177.113 github.com #UHE_
 20.205.243.168 api.github.com #UHE_
 20.207.73.82 gist.github.com #UHE_
+140.82.113.22 collector.github.com
 151.101.40.133 raw.githubusercontent.com #UHE_
 151.101.40.133 raw.github.com #UHE_
 151.101.40.133 camo.githubusercontent.com #UHE_
