@@ -14,13 +14,13 @@
 国内请使用ghproxy代理地址：
 
 -
-合集：https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/Combo.txt
+合集：https://mirror.ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/Combo.txt
 
 
-自定义补充：https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/userAD.txt
+自定义补充：https://mirror.ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/userAD.txt
 
 
-白名单：https://ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
+白名单：https://mirror.ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
 
 
 ******
