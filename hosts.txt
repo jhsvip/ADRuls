@@ -1,5 +1,5 @@
 #configuration for Mega.nz
-66.203.125.12 g.api.mega.co.nz
+66.203.125.14 g.api.mega.co.nz
 1.216.147.135 eu.api.mega.co.nz
 89.44.169.132 eu.static.mega.co.nz
 66.203.125.22 g.cdn1.mega.co.nz
