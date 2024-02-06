@@ -37,7 +37,7 @@
 白名单：https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
 
 
-
+Hosts更新了github、mega、steam 直连
 
 ******
 
