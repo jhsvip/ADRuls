@@ -1,6 +1,6 @@
 说明：Adguard Home 规则
 
-
+2024年2月7日 Hosts更新了github、megasync、steam 可直连
 
 2022/05/02 拼凑整合了一堆规则，去掉了一大堆重复的规则！
 
@@ -37,7 +37,7 @@
 白名单：https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
 
 
-Hosts更新了github、mega、steam 直连
+
 
 ******
 
