@@ -280,6 +280,7 @@
 183.204.72.250 store.st.dl.eccdnx.com #UHE_
 104.100.64.90 partner.steamgames.com #UHE_
 203.186.47.147 steamvideo-a.akamaihd.net #UHE_
+104.21.11.205 155.fun
 
 #LOL
 113.250.3.73 prod-rso.lolqq.com
