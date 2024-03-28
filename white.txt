@@ -117,4 +117,6 @@
 @@||jifen.yl234.com^$important
 @@||api.yl234.com^$important
 @@||m.yuanfudao.com^$important
-
+@@||gtimg.cn^$important
+@@||ossweb-img.qq.com^$important
+@@||lol.qq.com^$important
