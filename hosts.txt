@@ -6,10 +6,11 @@
 66.203.125.22  mega.co.nz
 31.216.148.10 mega.nz
 #31.216.145.5 mega.nz
-66.203.125.32 w.api.mega.co.nz
+66.203.125.21 w.api.mega.co.nz
 
 #Github
 20.27.177.113 github.com #UHE_
+151.101.40.133 github.githubassets.com
 20.205.243.168 api.github.com #UHE_
 20.207.73.82 gist.github.com #UHE_
 140.82.113.22 collector.github.com
