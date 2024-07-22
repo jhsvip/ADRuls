@@ -121,3 +121,5 @@
 @@||ossweb-img.qq.com^$important
 @@||mirror.ghproxy.com^$important
 @@||lol.qq.com^$important
+#bilibili直播
+@@||data.bilibili.com
