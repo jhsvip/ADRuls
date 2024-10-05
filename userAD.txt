@@ -1,7 +1,6 @@
 #####韩小圈广告
 ||hqres.51touxiang.com
 ||dcocsp.cn^$important
-||51touxiang.com^$important
 ||xiawan8.com^
 ||fancyapi.com^
 #####
