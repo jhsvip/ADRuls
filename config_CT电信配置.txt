@@ -120,7 +120,7 @@ whitelist_filters:
     url: https://ghp.ci/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
     name: SkyWhite
     id: 1651405093
-  - enabled: true
+  - enabled: false
     url: https://ghp.ci/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
     name: hosts
     id: 1651405094
