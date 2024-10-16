@@ -129,5 +129,6 @@
 @@||oth.str.beacon.qq.com^$important
 @@||pingjs.qq.com^$important
 @@||btrace.qq.com^$important
+@@||pingfore.wegame.com.cn^$important
 #bilibili直播
 @@||data.bilibili.com
