@@ -127,5 +127,6 @@
 @@||rumt-zh.com^$important
 @@||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
 @@||oth.str.beacon.qq.com^$important
+@@||pingjs.qq.com^$important
 #bilibili直播
 @@||data.bilibili.com
