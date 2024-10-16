@@ -1,6 +1,9 @@
-bind_host: 0.0.0.0
-bind_port: 3000
-beta_bind_port: 0
+http:
+  pprof:
+    port: 6060
+    enabled: false
+  address: 0.0.0.0:3000
+  session_ttl: 720h
 users:
   - name: admin
     password: $2a$10$wtr/I4szZg9eFMiUb2dk.eziJsCUshzKHfZTXbVGCARdI.YXKxWRO
@@ -8,26 +11,15 @@ auth_attempts: 5
 block_auth_min: 15
 http_proxy: ""
 language: zh-cn
-debug_pprof: false
-web_session_ttl: 720
+theme: auto
 dns:
   bind_hosts:
     - 0.0.0.0
   port: 5353
-  statistics_interval: 1
-  querylog_enabled: true
-  querylog_file_enabled: true
-  querylog_interval: 6h
-  querylog_size_memory: 1000
   anonymize_client_ip: false
-  protection_enabled: false
-  blocking_mode: nxdomain
-  blocking_ipv4: ""
-  blocking_ipv6: ""
-  blocked_response_ttl: 10
-  parental_block_host: family-block.dns.adguard.com
-  safebrowsing_block_host: standard-block.dns.adguard.com
   ratelimit: 20
+  ratelimit_subnet_len_ipv4: 24
+  ratelimit_subnet_len_ipv6: 56
   ratelimit_whitelist: []
   refuse_any: true
   upstream_dns:
@@ -38,8 +30,8 @@ dns:
   upstream_dns_file: ""
   bootstrap_dns:
     - 114.114.114.114
-  all_servers: true
-  fastest_addr: false
+  fallback_dns: []
+  upstream_mode: parallel
   fastest_timeout: 1s
   allowed_clients: []
   disallowed_clients: []
@@ -57,32 +49,25 @@ dns:
   bogus_nxdomain: []
   aaaa_disabled: false
   enable_dnssec: false
-  edns_client_subnet: false
+  edns_client_subnet:
+    custom_ip: ""
+    enabled: false
+    use_custom: false
   max_goroutines: 300
   handle_ddr: true
   ipset: []
   ipset_file: ""
-  filtering_enabled: true
-  filters_update_interval: 24
-  parental_enabled: false
-  safesearch_enabled: false
-  safebrowsing_enabled: false
-  safebrowsing_cache_size: 1048576
-  safesearch_cache_size: 1048576
-  parental_cache_size: 1048576
-  cache_time: 30
-  rewrites:
-    - domain: github.com
-      answer: 140.82.114.4
-    - domain: prod-rso.lol.qq.com
-      answer: 113.250.3.73
-  blocked_services: []
+  bootstrap_prefer_ipv6: false
   upstream_timeout: 10s
   private_networks: []
   use_private_ptr_resolvers: true
   local_ptr_upstreams: []
+  use_dns64: false
+  dns64_prefixes: []
   serve_http3: false
   use_http3_upstreams: false
+  serve_plain_dns: true
+  hostsfile_enabled: true
 tls:
   enabled: false
   server_name: ""
@@ -93,35 +78,55 @@ tls:
   port_dnscrypt: 0
   dnscrypt_config_file: ""
   allow_unencrypted_doh: false
-  strict_sni_check: false
   certificate_chain: ""
   private_key: ""
   certificate_path: ""
   private_key_path: ""
+  strict_sni_check: false
+querylog:
+  dir_path: ""
+  ignored: []
+  interval: 6h
+  size_memory: 1000
+  enabled: true
+  file_enabled: true
+statistics:
+  dir_path: ""
+  ignored: []
+  interval: 24h
+  enabled: true
 filters:
   - enabled: true
-    url: https://ghp.ci/https://github.com/jhsvip/ADRuls/blob/main/userAD.txt
+    url: https://mirror.ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/userAD.txt
     name: user
     id: 2
   - enabled: true
-    url: https://ghp.ci/https://github.com/jhsvip/ADRuls/blob/main/Combo.txt
-    name: BlueSkyXN
+    url: https://mirror.ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/Combo.txt
+    name: Cmonbo
     id: 1651405091
   - enabled: true
-    url: https://ghp.ci/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
     name: Skyrules
     id: 1651405092
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_21.txt
+    name: 'CHN: anti-AD'
+    id: 1707231081
+  - enabled: true
+    url: https://adguardteam.github.io/HostlistsRegistry/assets/filter_29.txt
+    name: 'CHN: AdRules DNS List'
+    id: 1707231082
 whitelist_filters:
   - enabled: true
-    url: https://ghp.ci/https://github.com/jhsvip/ADRuls/blob/main/white.txt
+    url: https://mirror.ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/white.txt
     name: 白
     id: 3
   - enabled: true
-    url: https://ghp.ci/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
+    url: https://mirror.ghproxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
     name: SkyWhite
     id: 1651405093
-  - enabled: false
-    url: https://ghp.ci/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
+  - enabled: true
+    url: https://mirror.ghproxy.com/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
     name: hosts
     id: 1651405094
 user_rules:
@@ -143,23 +148,60 @@ dhcp:
     lease_duration: 86400
     ra_slaac_only: false
     ra_allow_slaac: false
+filtering:
+  blocking_ipv4: ""
+  blocking_ipv6: ""
+  blocked_services:
+    schedule:
+      time_zone: UTC
+    ids: []
+  protection_disabled_until: null
+  safe_search:
+    enabled: false
+    bing: true
+    duckduckgo: true
+    ecosia: true
+    google: true
+    pixabay: true
+    yandex: true
+    youtube: true
+  blocking_mode: nxdomain
+  parental_block_host: family-block.dns.adguard.com
+  safebrowsing_block_host: standard-block.dns.adguard.com
+  rewrites:
+    - domain: github.com
+      answer: 140.82.114.4
+  safe_fs_patterns:
+    - /opt/AdGuardHome/data/userfilters/*
+  safebrowsing_cache_size: 1048576
+  safesearch_cache_size: 1048576
+  parental_cache_size: 1048576
+  cache_time: 30
+  filters_update_interval: 24
+  blocked_response_ttl: 10
+  filtering_enabled: true
+  parental_enabled: false
+  safebrowsing_enabled: false
+  protection_enabled: true
 clients:
   runtime_sources:
     whois: true
     arp: true
     rdns: true
     dhcp: true
-    hosts: true
+    hosts: false
   persistent: []
-log_file: ""
-log_max_backups: 0
-log_max_size: 100
-log_max_age: 3
-log_compress: false
-log_localtime: false
-verbose: false
+log:
+  enabled: true
+  file: ""
+  max_backups: 0
+  max_size: 100
+  max_age: 3
+  compress: false
+  local_time: false
+  verbose: false
 os:
   group: ""
   user: ""
   rlimit_nofile: 0
-schema_version: 14
+schema_version: 29
