@@ -120,6 +120,11 @@
 @@||gtimg.cn^$important
 @@||ossweb-img.qq.com^$important
 @@||mirror.ghproxy.com^$important
+#QQ、腾讯游戏相关
 @@||lol.qq.com^$important
+@@||beaconcdn.qq.com^$important
+@@||tpstelemetry.tencent.com^$important
+@@||rumt-zh.com^$important
+@@||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
 #bilibili直播
 @@||data.bilibili.com
