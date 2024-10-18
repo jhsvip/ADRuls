@@ -6,6 +6,7 @@
 @@||dl.fucnm.com^
 @@||down.fucnm.com^
 #============分割线=========
+@@||p.zol-img.com.cn^$important
 @@||pic.zol-img.com.cn^$important
 @@||etl-xlmc-ssl.sandai.net^
 @@||pacaio.match.qq.com^
