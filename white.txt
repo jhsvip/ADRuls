@@ -1,3 +1,6 @@
+#2024年10月30日
+@@||api.jr.mi.com^$important
+@@||pc-mon.zijieapi.com^$important
 #2022/10/11 聊天QQ视频#
 @@||ii.gdt.qq.com^$important
 @@||qqdata.ab.qq.com^$important
