@@ -1,3 +1,11 @@
+#2024年11月2日
+@@||miao.baidu.com^$important
+@@||dup.baidustatic.com^$important
+@@||openrcv.baidu.com^$important
+@@||hmma.baidu.com^$important
+@@||bdimg.share.baidu.com^$important
+@@||fxgate.baidu.com^$important
+
 #2024年10月30日
 @@||api.jr.mi.com^$important
 @@||pc-mon.zijieapi.com^$important
