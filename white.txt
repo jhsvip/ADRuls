@@ -7,6 +7,7 @@
 @@||fxgate.baidu.com^$important
 @@||mcs.zijieapi.com^$important
 @@||mssdk.bytedance.com^$important
+@@||mon.zijieapi.com^$important
 #2024年10月30日
 @@||api.jr.mi.com^$important
 @@||pc-mon.zijieapi.com^$important
