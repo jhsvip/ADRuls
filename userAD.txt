@@ -2,7 +2,16 @@
 ##推流
 ||pull.yximgs.com^$important
 ||pull.etoote.com^$important
+||sink-ssdata.51touxiang.com^$important
+||v3-be-pack.pglstatp-toutiao.com.lan^$important
+||log-api.pangolin-sdk-toutiao.com.lan^$important
+||adtracker.adfunlink.com^$important
+||android-sdk.zhangyuyidong.cn^$important
+||qzs.gdtimg.com.lan^$important
+||adsmind.ugdtimg.com.lan^$important
 ##京东未知
+||dsp-x.jd.com.lan^$important
+||xlog.jd.com.lan^$important
 ||e-oneoasec.jd.com^$important
 ||e-contract.jd.com^$important
 ####2024年11月28日
