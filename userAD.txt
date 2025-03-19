@@ -1,6 +1,14 @@
 ####2025年3月19日
 #待检验
 ||zt.gifshow.com^$important
+||*.vivo.com.cn^$important
+||*.lan^$important
+||*.in-addr.arpa^$important
+||ssp.iqiyi.com^$important
+||ssp.vivo.com.cn^$important
+||mpush-api.aliyun.com^$important
+||api.ipify.org^$important
+||adn.tapapis.cn^$important
 ##推流
 ||risk-fp-openapi.vivo.com.cn^$important
 ||maplehaze.cn
