@@ -26,7 +26,7 @@
 ||souv5.com^$important
 ||souhuang69.net^$important
 #####韩小圈广告
-||hqres.51touxiang.com
+#疑似推荐动图咱时放行||hqres.51touxiang.com
 ||dcocsp.cn^$important
 ||xiawan8.com^
 ||fancyapi.com^
