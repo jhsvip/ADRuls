@@ -1,13 +1,14 @@
 ####2025年3月19日
 ##推流
+||mktad.cn
 ||ubixioe.com^$important
 ||pull.yximgs.com^$important
 ||pull.etoote.com^$important
 ||sink-ssdata.51touxiang.com^$important
 ||v3-be-pack.pglstatp-toutiao.com.lan^$important
 ||log-api.pangolin-sdk-toutiao.com.lan^$important
-||adtracker.adfunlink.com^$important
-||android-sdk.zhangyuyidong.cn^$important
+||adfunlink.com^$important
+||zhangyuyidong.cn^$important
 ||qzs.gdtimg.com.lan^$important
 ||adsmind.ugdtimg.com.lan^$important
 ##京东未知
