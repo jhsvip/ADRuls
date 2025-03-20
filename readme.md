@@ -1,5 +1,7 @@
 说明：Adguard Home 规则
 
+2025年3月20日 开放Pull requests 大家如果有误杀的网站可以自己添加~欢迎大家提交!
+
 2024年2月7日 Hosts更新了github、megasync、steam 可直连
 
 2022/05/02 拼凑整合了一堆规则，去掉了一大堆重复的规则！
@@ -14,13 +16,14 @@
 国内请使用ghproxy代理地址：
 
 -
-合集：https://mirror.ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/Combo.txt
+合集：  非常庞大，会误杀很多东西，低配路由器等设备慎用~
+https://gh-proxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/Combo.txt
 
 
-自定义补充：https://mirror.ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/userAD.txt
+自定义补充：https://gh-proxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/userAD.txt
 
 
-白名单：https://mirror.ghproxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
+白名单：https://gh-proxy.com/https://raw.githubusercontent.com/jhsvip/ADRuls/main/white.txt
 
 
 ******
