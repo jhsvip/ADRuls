@@ -1,6 +1,7 @@
 #2025年5月30日
-@@||web.sdk.qcloud.com^$important
-@@||munchkin.marketo.net^$important
+@@||qcloud.com^$important
+@@||marketo.net^$important
+@@||mktoresp.com^$important
 #2025年3月14日
 @@||jd.com^$important
 @@||doaxvv.com^$important
