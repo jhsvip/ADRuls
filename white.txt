@@ -2,6 +2,7 @@
 @@||qcloud.com^$important
 @@||marketo.net^$important
 @@||mktoresp.com^$important
+@@||googletagmanager.com^$important
 #2025年3月14日
 @@||jd.com^$important
 @@||doaxvv.com^$important
