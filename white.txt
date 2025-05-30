@@ -1,4 +1,9 @@
 #2025年5月30日
+#千问登录
+@@||tongyi-passport.aliyun.com^$important
+@@||g.aplus.aliyun.com^$important
+
+#AMD驱动
 @@||qcloud.com^$important
 @@||marketo.net^$important
 @@||mktoresp.com^$important
