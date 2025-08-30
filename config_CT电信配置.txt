@@ -97,15 +97,15 @@ statistics:
   enabled: true
 filters:
   - enabled: true
-    url: https://gh-proxy.com/https://github.com/jhsvip/ADRuls/blob/main/userAD.txt
+    url: https://cdn.gh-proxy.com/https://github.com/jhsvip/ADRuls/blob/main/userAD.txt
     name: user
     id: 2
   - enabled: false
-    url: https://gh-proxy.com/https://github.com/jhsvip/ADRuls/blob/main/Combo.txt
+    url: https://cdn.gh-proxy.com/https://github.com/jhsvip/ADRuls/blob/main/Combo.txt
     name: Cmonbo
     id: 1651405091
   - enabled: false
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
+    url: https://cdn.gh-proxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/skyrules.txt
     name: Skyrules
     id: 1651405092
   - enabled: true
@@ -118,15 +118,15 @@ filters:
     id: 1707231082
 whitelist_filters:
   - enabled: true
-    url: https://gh-proxy.com/https://github.com/jhsvip/ADRuls/blob/main/white.txt
+    url: https://cdn.gh-proxy.com/https://github.com/jhsvip/ADRuls/blob/main/white.txt
     name: 白
     id: 3
   - enabled: true
-    url: https://gh-proxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
+    url: https://cdn.gh-proxy.com/https://raw.githubusercontent.com/BlueSkyXN/AdGuardHomeRules/master/ok.txt
     name: SkyWhite
     id: 1651405093
   - enabled: true
-    url: https://gh-proxy.com/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
+    url: https://cdn.gh-proxy.com/https://github.com/jhsvip/ADRuls/blob/main/hosts.txt
     name: hosts
     id: 1651405094
 user_rules:
