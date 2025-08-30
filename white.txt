@@ -1,3 +1,5 @@
+#2025年8月30日 暴雪战网
+@@||*.battlenet.com.cn^$important
 #2025年5月30日
 #千问登录
 @@||tongyi-passport.aliyun.com^$important
@@ -163,3 +165,4 @@
 @@||pingfore.wegame.com.cn^$important
 #bilibili直播
 @@||data.bilibili.com
+
