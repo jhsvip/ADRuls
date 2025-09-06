@@ -1,3 +1,5 @@
+#2025年9月7日 腾讯新闻
+@@||apd-pcdnwxstat.teg.tencent-cloud.net^$important
 #2025年8月30日 暴雪战网
 @@||*.battlenet.com.cn^$important
 #2025年5月30日
@@ -165,4 +167,5 @@
 @@||pingfore.wegame.com.cn^$important
 #bilibili直播
 @@||data.bilibili.com
+
 
