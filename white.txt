@@ -1,4 +1,6 @@
 #2025年9月7日 腾讯新闻 wps云文档 夸克
+@@||qpic.cn^$important
+@@||qq.com.cn^$important
 @@||pgdt.ugdtimg.com^$important
 @@||*.qq.com^$important
 @@||*mcdn.bilivideo.cn^$important
@@ -174,6 +176,7 @@
 @@||pingfore.wegame.com.cn^$important
 #bilibili直播
 @@||data.bilibili.com
+
 
 
 
