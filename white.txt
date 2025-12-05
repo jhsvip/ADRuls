@@ -80,7 +80,6 @@
 @@||t*.baidu.com^
 @@||s.click.taobao.com^
 @@||s.click.tmall.com^
-@@||h-adashx.ut.taobao.com^
 @@||push-rtmp-l29.douyincdn.com
 @@||kpstaticbj.wx.ckjr001.com
 @@||assets.ckjr001.com
@@ -130,7 +129,6 @@
 @@||a1.qpic.cn^$important
 @@||m.qpic.cn^$important
 #淘宝农场任务
-@@||audid-api.taobao.com
 @@||mo.m.tmall.com
 #QQ阅读
 @@||sf3-fe-tos.pglstatp-toutiao.com^
@@ -179,6 +177,7 @@
 @@||pingfore.wegame.com.cn^$important
 #bilibili直播
 @@||data.bilibili.com
+
 
 
 
