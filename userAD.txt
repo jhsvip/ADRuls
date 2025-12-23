@@ -1,4 +1,26 @@
 ####2025.12.5
+||sigma-fcount-webtech.proxima.nie.netease.com^$important
+||webank.com^$important
+||tctpwebank.com^$important
+||*.welidaimkt.com^$important
+||wangkaiyue.cn^$important
+||e.uril6.com^$important
+||api-access.pangolin-sdk-toutiao.com^$important
+||ibytedapm.com^$important
+||sevendatas.com^$important
+||adleap.cn^$important
+||quickapp.cn^$important
+||beuyinm.com^$important
+||*.bcebos.com^$important
+||*.jomoxc.com^$important
+||feedback-api.aliyuncs.com^$important
+||*.douyinpic.com^$important
+||*.ndcjl.com^$important
+||*.jomoxc.com^$important
+||sf3-fe-tos.pglstatp-toutiao.com^$important
+||logrcv.aiclk.com^$important
+||toblog.ctobsnssdk.com^$important
+||volceapplog.com^$important
 ||adwai.com^
 ||medproad.com^
 ||1rtb.net^
@@ -21,7 +43,7 @@
 ||toblog.ctobsnssdk.com^
 ||sigmob.cn^
 ||cpro.baidustatic.com^
-||jpush.cn^
+||*.jpush.cn^
 ||mentamob.com^
 ||chinanetcenter.com^
 ||yximgs.com^
@@ -235,5 +257,6 @@
 ||mp.weixin.qq.com/mp/getappmsgad*
 ||kgcj00.cn
 ||s.go.sohu.com
+
 
 
