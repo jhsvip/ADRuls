@@ -131,8 +131,6 @@
 #淘宝农场任务
 @@||mo.m.tmall.com
 #QQ阅读
-@@||sf3-fe-tos.pglstatp-toutiao.com^
-@@||api-access.pangolin-sdk-toutiao.com^
 @@||b.qchannel03.cn^
 @@||www.qchannel01.cn^
 @@||d.qchannel03.cn^
@@ -177,6 +175,7 @@
 @@||pingfore.wegame.com.cn^$important
 #bilibili直播
 @@||data.bilibili.com
+
 
 
 
