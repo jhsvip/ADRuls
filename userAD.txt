@@ -1,4 +1,7 @@
 ####2025.12.5
+||yingt.fun^$important
+||iytcdn.com^$important
+||magicacid.cn^$important
 ||yingt.asia^$important
 ||cyclick.88cywl.cn^$important
 ||tx.a.kspkg.com^$important
@@ -267,6 +270,7 @@
 ||mp.weixin.qq.com/mp/getappmsgad*
 ||kgcj00.cn
 ||s.go.sohu.com
+
 
 
 
