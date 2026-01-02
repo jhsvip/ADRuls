@@ -94,11 +94,9 @@
 ####2025年3月19日
 #待检验
 ||zt.gifshow.com^
-||*.vivo.com.cn^
 ||*.lan^
 ||*.in-addr.arpa^
 ||ssp.iqiyi.com^
-||ssp.vivo.com.cn^
 ||mpush-api.aliyun.com^
 ||api.ipify.org^
 ||adn.tapapis.cn^
