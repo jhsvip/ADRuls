@@ -94,7 +94,6 @@
 ####2025年3月19日
 #待检验
 ||zt.gifshow.com^
-||*.lan^
 ||*.in-addr.arpa^
 ||ssp.iqiyi.com^
 ||mpush-api.aliyun.com^
