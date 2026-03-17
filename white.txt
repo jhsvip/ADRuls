@@ -1,5 +1,6 @@
-#26.3.17  小米安装管理器
+#26.3.17  小米安装管理器 抖音购物抖省省
 @@||api.installer.xiaomi.com^$important
+@@||aweme-hl.snssdk.com^$important
 # 2026年3月1号 抖音加密图片资源误杀
 @@||*-sign.douyinpic.com^$important
 
