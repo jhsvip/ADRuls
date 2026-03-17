@@ -1,3 +1,5 @@
+#26.3.17  小米安装管理器
+@@||api.installer.xiaomi.com^$important
 # 2026年3月1号 抖音加密图片资源误杀
 @@||*-sign.douyinpic.com^$important
 
