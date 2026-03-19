@@ -1,7 +1,8 @@
-#26.3  小米安装管理器 抖音购物抖省省 gitee下载
+#26.3  小米安装管理器 抖音购物抖省省 gitee下载 风灵月影
 @@||api.installer.xiaomi.com^$important
 @@||aweme-hl.snssdk.com^$important
 @@||foruda.gitee.com^$important
+@@||file.fucnm.com^$important
 # 2026年3月1号 抖音加密图片资源误杀
 @@||*-sign.douyinpic.com^$important
 
