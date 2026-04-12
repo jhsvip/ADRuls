@@ -5,7 +5,7 @@
 @@||file.fucnm.com^$important
 # 2026年3月1号 抖音加密图片资源误杀
 @@||*-sign.douyinpic.com^$important
-
+@@||*.douyinpic.com^$important
 #2025年9月7日 腾讯新闻 wps云文档 夸克
 @@||smzdm.com^$important
 @@||youku.com^$important
