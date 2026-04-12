@@ -1,3 +1,6 @@
+#26.4 抖音、抖省省
+@@||snssdk.com^$important
+@@||*.douyinpic.com^$important
 #26.3  小米安装管理器 抖音购物抖省省 gitee下载 风灵月影
 @@||api.installer.xiaomi.com^$important
 @@||aweme-hl.snssdk.com^$important
@@ -5,7 +8,6 @@
 @@||file.fucnm.com^$important
 # 2026年3月1号 抖音加密图片资源误杀
 @@||*-sign.douyinpic.com^$important
-@@||*.douyinpic.com^$important
 #2025年9月7日 腾讯新闻 wps云文档 夸克
 @@||smzdm.com^$important
 @@||youku.com^$important
