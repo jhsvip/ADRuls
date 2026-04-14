@@ -1,6 +1,7 @@
-#26.4 抖音、抖省省
+#26.4 抖音、抖省省、喜马拉雅
 @@||snssdk.com^$important
 @@||*.douyinpic.com^$important
+@@||xdcs-collector.ximalaya.com^$important
 #26.3  小米安装管理器 抖音购物抖省省 gitee下载 风灵月影
 @@||api.installer.xiaomi.com^$important
 @@||aweme-hl.snssdk.com^$important
